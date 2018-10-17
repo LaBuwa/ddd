@@ -1,0 +1,7 @@
+git log -p -2		 -p 选项展开显示每次提交的内容差异，用 -2 则仅显示最近的两次更新：
+
+git log --stat 		仅显示简要的增改行数统计：
+
+git log --pretty=format:"%h - %an, %ar : %s"	定制要显示的记录格式，这样的输出便于后期编程提取分析
+
+git log --graph
